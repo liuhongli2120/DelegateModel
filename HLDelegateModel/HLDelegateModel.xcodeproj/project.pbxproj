@@ -29,6 +29,7 @@
 		F2CCF8A71D9F98A800177292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2CCF8AD1D9F9DA400177292 /* HLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLScrollView.h; sourceTree = "<group>"; };
 		F2CCF8AE1D9F9DA400177292 /* HLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLScrollView.m; sourceTree = "<group>"; };
+		F2CCF8B01D9FA11700177292 /* HLScrollViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLScrollViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				F2CCF89D1D9F98A800177292 /* ViewController.m */,
 				F2CCF8AD1D9F9DA400177292 /* HLScrollView.h */,
 				F2CCF8AE1D9F9DA400177292 /* HLScrollView.m */,
+				F2CCF8B01D9FA11700177292 /* HLScrollViewDelegate.h */,
 				F2CCF89F1D9F98A800177292 /* Main.storyboard */,
 				F2CCF8A21D9F98A800177292 /* Assets.xcassets */,
 				F2CCF8A41D9F98A800177292 /* LaunchScreen.storyboard */,

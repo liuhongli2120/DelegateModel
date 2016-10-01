@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "HLScrollView.h"
 
-@interface ViewController ()
+@interface ViewController () <HLScrollViewDelegate>
+
+@property(nonatomic,strong)UIImageView *imageView;
 
 @end
 
@@ -19,9 +22,13 @@
     [self setupUI];
 }
 
+- (UIView *)要放大的视图 {
+    return _imageView;
+}
+
 #pragma mark - 搭建界面
 - (void)setupUI {
-    UIScrollView *sv = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 300, 500)];
+    HLScrollView *sv = [[HLScrollView alloc]initWithFrame:CGRectMake(0, 0, 300, 500)];
     sv.backgroundColor = [UIColor lightGrayColor];
     
     sv.center = self.view.center;
@@ -34,6 +41,10 @@
     iv.image = image;
     
     [sv insertSubview:iv atIndex:0];
+    
+    _imageView = iv;
+    
+    sv.delegate = self;
 }
 
 @end

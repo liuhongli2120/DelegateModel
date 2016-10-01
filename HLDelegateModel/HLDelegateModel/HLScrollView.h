@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HLScrollViewDelegate.h"
 
 @interface HLScrollView : UIView
+
+@property(nonatomic,weak)id<HLScrollViewDelegate> delegate;
 
 @end
