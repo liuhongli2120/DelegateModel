@@ -13,6 +13,7 @@
 		F2CCF8A11D9F98A800177292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CCF89F1D9F98A800177292 /* Main.storyboard */; };
 		F2CCF8A31D9F98A800177292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CCF8A21D9F98A800177292 /* Assets.xcassets */; };
 		F2CCF8A61D9F98A800177292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CCF8A41D9F98A800177292 /* LaunchScreen.storyboard */; };
+		F2CCF8AF1D9F9DA400177292 /* HLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCF8AE1D9F9DA400177292 /* HLScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F2CCF8A21D9F98A800177292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CCF8A51D9F98A800177292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2CCF8A71D9F98A800177292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CCF8AD1D9F9DA400177292 /* HLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLScrollView.h; sourceTree = "<group>"; };
+		F2CCF8AE1D9F9DA400177292 /* HLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F2CCF89A1D9F98A800177292 /* AppDelegate.m */,
 				F2CCF89C1D9F98A800177292 /* ViewController.h */,
 				F2CCF89D1D9F98A800177292 /* ViewController.m */,
+				F2CCF8AD1D9F9DA400177292 /* HLScrollView.h */,
+				F2CCF8AE1D9F9DA400177292 /* HLScrollView.m */,
 				F2CCF89F1D9F98A800177292 /* Main.storyboard */,
 				F2CCF8A21D9F98A800177292 /* Assets.xcassets */,
 				F2CCF8A41D9F98A800177292 /* LaunchScreen.storyboard */,
@@ -105,6 +110,7 @@
 		F2CCF88B1D9F98A800177292 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HL;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = lhl;
 				TargetAttributes = {
@@ -154,6 +160,7 @@
 				F2CCF89E1D9F98A800177292 /* ViewController.m in Sources */,
 				F2CCF89B1D9F98A800177292 /* AppDelegate.m in Sources */,
 				F2CCF8981D9F98A800177292 /* main.m in Sources */,
+				F2CCF8AF1D9F9DA400177292 /* HLScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
